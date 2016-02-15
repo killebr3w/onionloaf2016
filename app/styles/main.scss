@@ -9,7 +9,7 @@ body {
 }
 
 .gallery-cont {
-  $thumbNum : 7;
+  $thumbNum : 5;
   background-color: #333;
 
   height: 100%;
@@ -46,11 +46,11 @@ body {
     position: relative;;
     .gallery-main-img {
       position: absolute;
-      width: 110%;
+      width: 120%;
       background-color: orange;
-      top: -10vh;
-      right: -6.5vh;
-      height: 80vh;
+      top: -5vh;
+      right: -10%;
+      height: 70vh;
     }
   }
 }
